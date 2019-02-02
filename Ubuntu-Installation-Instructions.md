@@ -15,31 +15,35 @@ To run this install script please enter into the terminal the following:
 
 ## Manual Installation
 ---
-- Run
+Run
+
 `sudo apt-get install p7zip git build-essential libreadline5 libreadline-dev libusb-0.1-4 libusb-dev libqt4-dev perl pkg-config wget libncurses5-dev gcc-arm-none-eabi`
 
-- Clone fork
+Clone fork
+
 `git clone https://github.com/RfidResearchGroup/proxmark3.git`
 
-- Get the latest commits
+Get the latest commits
+
 `git pull`
 
-- Install the blacklist rules and  add user to dialout group (if you on a Linux/ubuntu/debian). 
+Install the blacklist rules and add user to dialout group. 
+
 `make udev`
 
-> Log in and log out of user ubuntu account to make sure rights have been changed. 
+Log in and log out of user ubuntu account to make sure rights have been changed. 
 
-- Clean and complete compilation
+Clean and complete compilation
 `make clean && make all`
 	
-- Check location of proxmark 
+Check location of proxmark 
 'dmesg | grep -i usb
 
-- Flash the BOOTROM & FULLIMAGE
+Flash the BOOTROM & FULLIMAGE
 `client/flasher /dev/ttyACM0 -b bootrom/obj/bootrom.elf armsrc/obj/fullimage.elf`
 	
-- Change into the client folder
+Change into the client folder
 `cd client`
 	
-- Run the client
+Run the client
 `./proxmark3 /dev/ttyACM0`
