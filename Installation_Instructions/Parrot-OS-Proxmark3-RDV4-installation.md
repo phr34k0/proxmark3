@@ -1,12 +1,11 @@
 
 # Parrot OS Installation
 
-## Installation notes
+## Notes
 
 Some further notes can be found at @5w0rdfish repo [Proxmark Installation for Parrot OS](https://github.com/5w0rdfish/Proxmark3-RDV4-ParrotOS)
 
-Video Installation guide:
-![alt text](https://binged.it/2DQWXFw "Logo Title Text 1")(http://www.youtube.com/watch?v=YOUTUBE_VIDEO_ID_HERE)
+Video Installation guide: coming soon
 Installation script: coming soon
 
 ---
