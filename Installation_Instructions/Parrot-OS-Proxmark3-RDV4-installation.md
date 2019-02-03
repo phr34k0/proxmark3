@@ -1,9 +1,12 @@
 
 # Parrot OS Installation
+
 ## Installation notes
+
 Some further notes can be found at @5w0rdfish repo [Proxmark Installation for Parrot OS](https://github.com/5w0rdfish/Proxmark3-RDV4-ParrotOS)
 Video Installation guide:
 Installation script: coming soon
+
 ---
 ## Manual Install
 First what we want to do is get an update for the system
