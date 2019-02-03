@@ -1,5 +1,11 @@
 # Setup and build for ArchLinux
 
+## Notes
+
+Kali and ArchLinux users usually must kill their modem manager in order for the proxmark3 to enumerate properly.   
+`sudo apt remove modemmanager`
+
+## Manual Installation
 Run
 ```sh
 sudo pacman -Sy base-devel p7zip libusb readline ncurses arm-none-eabi-newlib --needed
