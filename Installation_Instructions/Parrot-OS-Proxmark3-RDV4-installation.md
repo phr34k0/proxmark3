@@ -12,14 +12,14 @@ Grab the build requirements.
 sudo apt-get install p7zip git build-essential libreadline5 libreadline-dev \
 libusb-0.1-4 libusb-dev libqt4-dev perl pkg-config wget libncurses5-dev gcc-arm-none-eabi
 ```
-If you do get any issues during the requirments installation, I have found it can help using the synaptic package manager. You can go one by one and grab all the requirements and dependencies. 
+If you do get any issues during the requirements installation, I have found it to help using the synaptic package manager. 
 
-Next thing we want to do is clone the repo. 
+Clone the repo. 
 ```sh
 git clone https://github.com/RfidResearchGroup/proxmark3.git
 ```
 
-Get the latest commits , although its probably up to date.
+Get the latest commits
 ```sh
 git pull
 ```
