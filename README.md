@@ -10,7 +10,7 @@ Nothing says thank you as much as a donation,  https://www.patreon.com/iceman100
 
 ## ToC
 
-- Coverity Scan Config & Run
+- [Coverity Scan Config & Run](#coverity-scan-config--run)
 - Whats changed?
 - Why didn't you based it on offical PM3 Master?
 - Why don't you add this or that functionality?	
