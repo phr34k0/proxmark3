@@ -1,21 +1,29 @@
 
 First what we want to do is get an update for the system
+
 ```sh
 sudo apt-get install update
 ```
+
 I normally have a folder for all my tools, so I make a directory that I will install everything to
 ```sh
 mkdir Tools
+```
+
 ```sh
 grab the build requirements.
+```
+
 ```sh
 sudo apt-get install p7zip git build-essential libreadline5 libreadline-dev libusb-0.1-4 libusb-dev libqt4-dev perl pkg-config wget libncurses5-dev gcc-arm-none-eabi
 ```
-If you do get any issues during the installation of dependencies I have found by using the synaptic package manager it helps. You can go one by one and grab all the requirements and dependencies. 
+If you do get any issues during the requirments installation, I have found it can help using the synaptic package manager. You can go one by one and grab all the requirements and dependencies. 
+
 Next thing we want to do is clone the repo. 
 ```sh
 git clone https://github.com/RfidResearchGroup/proxmark3.git
 ```
+
 Get the latest commits , although its probably up to date.
 ```sh
 git pull
@@ -54,8 +62,9 @@ cd client
 Run the client 
  ```sh
 ./proxmark3 /dev/ttyACM0
+```
 
 or 
  ``` sh 
-./proxmark3 /dev/pm  <press tab on the keyboard for it to detect the proxmark>
+./proxmark3 /dev/pm  #press tab on the keyboard for it to detect the proxmark
 ```
