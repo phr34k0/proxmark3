@@ -8,29 +8,15 @@ This repo is based on iceman fork for proxmark3. It is dedicated to bring the mo
 # Donations
 Nothing says thank you as much as a donation,  https://www.patreon.com/iceman1001
 
-## ToC
+| FAQ's & Updates     | Installation        | Use of the Proxmark |
+| ------------- |:-------------:| -----:|
+|[Why didn't you based it on offical PM3 Master?]()   | [Setup and build for ArchLinux]() | [Validating proxmark client functionality]()|
+|[Why don't you add this or that functionality?]()      | [Setup and build for UBUNTU]()  | [First things on your RDV40]() |
+| [Whats changed?]() | [Homebrew (Mac OS X)]() | [Verify sim module firmware version]() |
+|[Development]()|[Upgrading HomeBrew tap formula]()||
+||[Setup and build for Windows]()|[PM3 GUI]()|
+||[Coverity Scan Config & Run]()||
 
-- [Coverity Scan Config & Run](#coverity-scan-config--run)
-- Whats changed?
-- Why didn't you based it on offical PM3 Master?
-- Why don't you add this or that functionality?	
-- PM3 GUI
-- Development
-- KALI and ARCHLINUX users
-- Setup and build for UBUNTU
-- Setup and build for ArchLinux
-- Homebrew (Mac OS X)
-- Upgrading HomeBrew tap formula
-- Building on Windows
-- Gator96100 distro
-- Build and run
-- Validating proxmark client functionality
-- Run the following commands
-- Quit client
-- First things on your RDV40
-- Verify sim module firmware version
-
-- The end
 
 ## Coverity Scan Config & Run
 Download the Coverity Scan Self-buld and install it.
