@@ -1,12 +1,15 @@
-#Setup and build for ArchLinux
+# Setup and build for ArchLinux
 ---
 
-##Manual Installation
+## Manual Installation
 ---
 Run
 ```sh
-sudo pacman -Sy base-devel p7zip libusb readline ncurses arm-none-eabi-newlib --needed```
-```sh yaourt -S termcap```
+sudo pacman -Sy base-devel p7zip libusb readline ncurses arm-none-eabi-newlib --needed
+```
+```sh 
+yaourt -S termcap
+```
 
 Remove modemmanager
 ```sh
