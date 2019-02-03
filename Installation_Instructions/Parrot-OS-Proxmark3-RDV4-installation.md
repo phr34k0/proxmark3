@@ -6,10 +6,11 @@ First what we want to do is get an update for the system
 sudo apt-get install update
 ```
 
-grab the build requirements.
+Grab the build requirements.
 
 ```sh
-sudo apt-get install p7zip git build-essential libreadline5 libreadline-dev libusb-0.1-4 libusb-dev libqt4-dev perl pkg-config wget libncurses5-dev gcc-arm-none-eabi
+sudo apt-get install p7zip git build-essential libreadline5 libreadline-dev \
+libusb-0.1-4 libusb-dev libqt4-dev perl pkg-config wget libncurses5-dev gcc-arm-none-eabi
 ```
 If you do get any issues during the requirments installation, I have found it can help using the synaptic package manager. You can go one by one and grab all the requirements and dependencies. 
 
@@ -22,14 +23,14 @@ Get the latest commits , although its probably up to date.
 ```sh
 git pull
 ```
-Iceman has made the udev script which takes care of the blacklist rules. 
+Iceman has made the udev script below which takes care of the blacklist rules. 
 When you look at the Kali linux and Arch install you will see the equivalent and that is the remove modem manager command. 
 In addition to this, the make udev command create's an alias for the pm3 under /dev. 
 
 ```sh
 make udev
 ```
-So log out and logg back in again. And now we are all set to take the next step. 
+Log out and log back in again. And now we are all set to take the next step. 
 ```sh
 Clean and complete compilation make clean && make all
 ```
@@ -43,7 +44,6 @@ It should show up as a CDC device:
 [10416.555111] usb 2-1.2: Manufacturer: proxmark.org
 [10416.555871] cdc_acm 2-1.2:1.0: ttyACM0: USB ACM device
 ```
-So there is a online blog post which is great and is for Kali linux installation, during this installation he does mention that you need to press the button whilst pluggin the RDV4 in to your computer and to hold this the whole time the image is being flashed.  
 
 Flash the BOOTROM & FULLIMAGE
  ```sh
