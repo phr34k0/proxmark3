@@ -9,6 +9,9 @@ Please download one of these :
 If you receive gcc errors using v3.1 during build, use and download v2.2. This may assist. 
 ---
 ## Manual Installation
+Install required drivers for your windows installation.
+You can find out how to do this here: 
+
 Install github
 
 clone the required proxspace repo. 
