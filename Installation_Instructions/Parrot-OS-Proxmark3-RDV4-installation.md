@@ -1,18 +1,12 @@
 
+# Parrot OS Installation
 First what we want to do is get an update for the system
 
 ```sh
 sudo apt-get install update
 ```
 
-I normally have a folder for all my tools, so I make a directory that I will install everything to
-```sh
-mkdir Tools
-```
-
-```sh
 grab the build requirements.
-```
 
 ```sh
 sudo apt-get install p7zip git build-essential libreadline5 libreadline-dev libusb-0.1-4 libusb-dev libqt4-dev perl pkg-config wget libncurses5-dev gcc-arm-none-eabi
