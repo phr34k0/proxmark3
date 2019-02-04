@@ -14,12 +14,12 @@ Nothing says thank you as much as a donation,  https://www.patreon.com/iceman100
 
 ---
 
-#PROXMARK INSTALLATION AND OVERVIEW
+# PROXMARK INSTALLATION AND OVERVIEW
 
 
 | FAQ's & Updates     | Installation        | Use of the Proxmark |
 | ------------- |:-------------:| -----:|
-|[Whats changed?]()  | [Setup and build for ArchLinux]() | [Validating proxmark client functionality]()|
+|[Whats changed?](#whats-changed)  | [Setup and build for ArchLinux](/Installation_Instructions/Arch-Linux-Installation-Instructions.md) | [Validating proxmark client functionality]()|
 |[Development]()     | [Setup and build for UBUNTU]()  | [First things on your RDV40]() |
 | [Why don't you add this or that functionality?]()  | [Homebrew (Mac OS X)]() | [Verify sim module firmware version]() |
 |[Why didn't you based it on offical PM3 Master?]() |[Upgrading HomeBrew tap formula]()|[Commands & use] ()|
