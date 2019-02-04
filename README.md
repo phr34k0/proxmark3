@@ -19,12 +19,13 @@ Nothing says thank you as much as a donation,  https://www.patreon.com/iceman100
 
 | FAQ's & Updates     | Installation        | Use of the Proxmark |
 | ------------- |:-------------:| -----:|
-|[Whats changed?](#whats-changed)  | [Setup and build for ArchLinux](/Installation_Instructions/Arch-Linux-Installation-Instructions.md) | [Validating proxmark client functionality]()|
-|[Development]()     | [Setup and build for UBUNTU]()  | [First things on your RDV40]() |
-| [Why don't you add this or that functionality?]()  | [Homebrew (Mac OS X)]() | [Verify sim module firmware version]() |
-|[Why didn't you based it on offical PM3 Master?]() |[Upgrading HomeBrew tap formula]()|[Commands & use] ()|
-|Notices|[Setup and build for Windows]()|[PM3 GUI]()|
-|Issues|[Coverity Scan Config & Run]()||
+|[Whats changed?](#whats-changed)  | [Setup and build for ArchLinux](/Installation_Instructions/Arch-Linux-Installation-Instructions.md) | [Validating proxmark client functionality](/Use_of_Proxmark/1_Validation.md)|
+|[Development]()     | [Setup and build for UBUNTU](/Installation_Instructions/Ubuntu-Installation-Instructions.md)  | [Verification and Configuration](/Use_of_Proxmark/2_Configuration-and-Verification.md) |
+| [Why don't you add this or that functionality?]()  | [Homebrew (Mac OS X) & Upgrading HomeBrew Tap Forumula](/Installation_Instructions/Mac-OS-X-Homebrew-Installation-Instructions.md) | [Commands & Features] (/Use_of_Proxmark/3_Commands-and-Features)|
+|[Why didn't you based it on offical PM3 Master?]() |[ParrotOS (Debian) Installation ](/Installation_Instructions/Parrot-OS-Proxmark3-RDV4-installation.md)|
+|Notices|[Setup and build for Windows](/Installation_Instructions/Windows-Installation-Instructions.md)|[PM3 GUI]()|
+|Issues|[Coverity Scan Config & Run](/Installation_Instructions/Coverity-Scan-Config-%26-Run.md)||
+|||
 
 ---
 ## Whats changed?
