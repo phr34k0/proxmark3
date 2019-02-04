@@ -8,10 +8,6 @@ This repo is based on iceman fork for proxmark3. It is dedicated to bringing the
 " target="_blank"><img src="https://github.com/5w0rdfish/proxmark3/blob/master/prox.png" 
 alt="Yuotube" width="100%" height="auto" border="10" /></a>
 
-
-# Donations
-Nothing says thank you as much as a donation,  https://www.patreon.com/iceman1001
-
 ---
 
 # PROXMARK INSTALLATION AND OVERVIEW
@@ -64,3 +60,6 @@ Please see the [Proxmark Forum](http://www.proxmark.org/forum/index.php) and see
 `iceman at host iuse.se`
 `July 2018, Sweden`
 `revamped for Jan 2019 @5w0rdfish`
+
+# Donations
+Nothing says thank you as much as a donation,  https://www.patreon.com/iceman1001
