@@ -1,5 +1,7 @@
-Proxmark3 RDV40 dedicated repo,  based on iceman fork
+Proxmark3 RDV4.0 Dedicated Github
 ===============
+This repo is based on iceman fork for proxmark3. It is dedicated to bringing the most out of the new features for proxmark3 RDV4.0 new hardware and design.
+
 [![Latest release](https://img.shields.io/github/release/RfidResearchGroup/proxmark3.svg)](https://github.com/RfidResearchGroup/proxmark3/releases/latest)
 
 <a href="http://www.youtube.com/watch?feature=player_embedded&v=uyJ-y0kSWfc
@@ -7,15 +9,12 @@ Proxmark3 RDV40 dedicated repo,  based on iceman fork
 alt="Yuotube" width="100%" height="auto" border="10" /></a>
 
 
-## Notice      
-This repo is based on iceman fork for proxmark3. It is dedicated to bring the most out of the new features for proxmark3 RDV40 device.
-
 # Donations
 Nothing says thank you as much as a donation,  https://www.patreon.com/iceman1001
 
 ---
 
-PROXMARK INSTALLATION AND OVERVIEW
+#PROXMARK INSTALLATION AND OVERVIEW
 
 
 | FAQ's & Updates     | Installation        | Use of the Proxmark |
