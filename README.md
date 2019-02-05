@@ -59,7 +59,7 @@ Please see the [Proxmark Forum](http://www.proxmark.org/forum/index.php) and see
 
 `iceman at host iuse.se`
 `July 2018, Sweden`
-`revamped for Jan 2019 @5w0rdfish`
+`updated for Jan 2019 @5w0rdfish`
 
 # Donations
 Nothing says thank you as much as a donation,  https://www.patreon.com/iceman1001
