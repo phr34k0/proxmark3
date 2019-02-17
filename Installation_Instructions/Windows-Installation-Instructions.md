@@ -28,38 +28,34 @@ For example C:\Proxspace or D:\projects\public\proxmark\proxspace are ok whereas
 
 7) Copy all the contents of proxmark3 folder into the proxspace pm3 folder
 
-8) return to the runme.bat and change directory into the pm3 folder 
+8) Return to the runme.bat and change directory into the pm3 folder 
 Please note you will need to use the / syntax as you are using BASH.
 
-To build the project type make clean && make all.
+9) Get the latest commits	
+`git pull`
 
-In most cases the Proxmark III needs to be flashed with the just compiled firmware for details see Firmware upgrading the Proxmark III.
+10) CLEAN COMPILE
+`make clean && make all`
 
-To run the Proxmark III client type ./client/proxmark3.exe COM1 where COM1 is the USB port of the Proxmark III.
+11) Flash the BOOTROM & FULLIMAGE
+`client/flasher.exe comX -b bootrom/obj/bootrom.elf armsrc/obj/fullimage.elf`
+	
+12) Change into the client folder
+`cd client`
 
-Check your firmware revision on the Proxmark III with hw ver
+Assuming you have Proxmark3 Windows drivers installed you can run the Proxmark software where "X" is the com port number assigned to proxmark3 under Windows. 
+
+13) Run the client	
+`proxmark3.exe comX`
+
+14) Check your firmware revision on the Proxmark III with hw ver
 
 For basic help type help. Or for help on a set of sub commands type the command followed by help. For example hf mf help.
 
-### Build and run
+
 
 - Clone fork
 `git clone https://github.com/RfidResearchGroup/proxmark3.git`
 
-- Get the latest commits	
-`git pull`
 
-- CLEAN COMPILE
-`make clean && make all`
-
-Assuming you have Proxmark3 Windows drivers installed you can run the Proxmark software where "X" is the com port number assigned to proxmark3 under Windows. 
-	
-- Flash the BOOTROM & FULLIMAGE
-`client/flasher.exe comX -b bootrom/obj/bootrom.elf armsrc/obj/fullimage.elf`
-	
-- Change into the client folder
-`cd client`
-	
-- Run the client	
-`proxmark3.exe comX`
 
