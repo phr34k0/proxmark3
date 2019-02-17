@@ -1,31 +1,34 @@
 # Building on Windows
-
-## Notes
 You will need to use the Gator96100 Proxspace package to assist in your windows installation.
+This can be downloaded from https://github.com/Gator96100/ProxSpace/
+## Notes
+If you receive gcc errors using v3.1 during build, use and download v2.2. This may assist. 
 Please download one of these :
 - https://github.com/Gator96100/ProxSpace/releases/tag/v3.1   (release v3.1 with gcc v7.3.0 )
 - https://github.com/Gator96100/ProxSpace/releases/tag/v2.2   (release v2.2 with gcc v5.3.0 arm-none-eabi-gcc v7.1.0)
 
-If you receive gcc errors using v3.1 during build, use and download v2.2. This may assist. 
 ---
 ## Manual Installation
-Install required drivers for your windows installation.
+1) Install required drivers for your windows installation.
 You can find out how to do this here: 
 
-Install github
+2) Install github
 
-clone the required proxspace repo. 
+3) clone the required proxspace repo. https://github.com/Gator96100/ProxSpace/
 
-Extract 'ProxSpace' to a location on drive without spaces. 
+4) Extract 'ProxSpace' to a location on drive without spaces. 
 For example C:\Proxspace or D:\projects\public\proxmark\proxspace are ok whereas C:\My Documents\My Projects\proxspace is not.
 
-Run runme.bat or runme64.bat depending on your Windows architecture.
+5) Run runme.bat or runme64.bat depending on your Windows architecture.
 
 
-- Clone fork
+6) Clone fork
 `git clone https://github.com/RfidResearchGroup/proxmark3.git`
 
-Go into the root directory of the repository you wish to compile. For example cd proxmark3.
+7) Copy all the contents of proxmark3 folder into the proxspace pm3 folder
+
+8) return to the runme.bat and change directory into the pm3 folder 
+Please note you will need to use the / syntax as you are using BASH.
 
 To build the project type make clean && make all.
 
