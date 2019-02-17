@@ -12,35 +12,22 @@ If you receive gcc errors using v3.1 during build, download and use v2.2. This m
 ## Manual Installation
 1) Install required drivers for your windows installation.
 
-2) Install github for windows
+2) Install Github for Windows
 
-3) Clone the required proxspace repo. https://github.com/Gator96100/ProxSpace/
+3) Download the required proxspace repo. https://github.com/Gator96100/ProxSpace/
 
 4) Extract 'ProxSpace' to a location on drive without spaces. 
-For example C:\Proxspace or D:\projects\public\proxmark\proxspace are ok whereas C:\My Documents\My Projects\proxspace is not.
-
-5) Run runme.bat or runme64.bat depending on your Windows architecture.
+For example C:\Proxspace or D:\projects\public\proxmark\proxspace is ok whereas C:\My Documents\My Projects\proxspace is not.
 
 6) Clone fork
 `git clone https://github.com/RfidResearchGroup/proxmark3.git`
 
-7) Copy all the contents of proxmark3 folder into the proxspace pm3 folder
+7) Copy all the contents from the proxmark3 folder into the proxspace pm3 folder
 
-8) Return to the runme.bat and check you are in the correct directory it should return /pm3
-```sh
-pm3 ~$ pwd
-/pm3
-```
-It should appear as /pm3. Please note for changing directory, you will need to use the / syntax as you are using BASH.
+8) Run runme.bat or runme64.bat depending on your Windows architecture.
+
+Please note for changing directory, you will need to use the / syntax as you are using BASH.
 For example:
-```sh
-
-cd /pm3
-
-pm3 ~$ pwd
-/pm3
-
-```
 
 9) CLEAN COMPILE
 ```sh
@@ -61,11 +48,13 @@ Assuming you have Proxmark3 Windows drivers installed you can run the Proxmark s
 
 12) Run the client	
 ```sh
-proxmark3.exe comX
+./proxmark3.exe comX
 ```
 
-13) Check your firmware revision on the Proxmark III with hw ver
-
+13) Check your firmware revision on the Proxmark III with 
+```sh
+hw ver
+```
 For basic help type help. Or for help on a set of sub commands type the command followed by help. For example hf mf help.
 
 
