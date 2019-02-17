@@ -41,34 +41,30 @@ pm3 ~$ pwd
 /pm3
 
 ```
-9) Get the latest commits	
-```sh
-git pull
-```
 
-10) CLEAN COMPILE
+9) CLEAN COMPILE
 ```sh
 make clean && make all
 ```
 
-11) Flash the BOOTROM & FULLIMAGE
+10) Flash the BOOTROM & FULLIMAGE
 ```sh
 client/flasher.exe comX -b bootrom/obj/bootrom.elf armsrc/obj/fullimage.elf
 ```
 	
-12) Change into the client folder
+11) Change into the client folder
 ```sh
 cd client
 ```
 
 Assuming you have Proxmark3 Windows drivers installed you can run the Proxmark software where "X" is the com port number assigned to proxmark3 under Windows. 
 
-13) Run the client	
+12) Run the client	
 ```sh
 proxmark3.exe comX
 ```
 
-14) Check your firmware revision on the Proxmark III with hw ver
+13) Check your firmware revision on the Proxmark III with hw ver
 
 For basic help type help. Or for help on a set of sub commands type the command followed by help. For example hf mf help.
 
