@@ -20,14 +20,15 @@ If you receive gcc errors using v3.1 during build, download and use v2.2. This m
 For example C:\Proxspace or D:\projects\public\proxmark\proxspace is ok whereas C:\My Documents\My Projects\proxspace is not.
 
 6) Clone fork
-`git clone https://github.com/RfidResearchGroup/proxmark3.git`
+```sh
+git clone https://github.com/RfidResearchGroup/proxmark3.git
+```
 
 7) Copy all the contents from the proxmark3 folder into the proxspace pm3 folder
 
 8) Run runme.bat or runme64.bat depending on your Windows architecture.
 
-Please note for changing directory, you will need to use the / syntax as you are using BASH.
-For example:
+Please note you will need to use / as you are using BASH.
 
 9) CLEAN COMPILE
 ```sh
