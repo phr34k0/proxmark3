@@ -11,7 +11,6 @@ If you receive gcc errors using v3.1 during build, download and use v2.2. This m
 ---
 ## Manual Installation
 1) Install required drivers for your windows installation.
-You can find out how to do this here: 
 
 2) Install github for windows
 
@@ -27,9 +26,13 @@ For example C:\Proxspace or D:\projects\public\proxmark\proxspace are ok whereas
 
 7) Copy all the contents of proxmark3 folder into the proxspace pm3 folder
 
-8) Return to the runme.bat and change directory into the pm3 folder.
+8) Return to the runme.bat and check you are in the correct directory
+```sh
 
-Please note you will need to use the / syntax as you are using BASH.
+pwd
+
+```
+It should appear as /pm3. Please note for changing directory, you will need to use the / syntax as you are using BASH.
 For example:
 ```sh
 
