@@ -13,15 +13,14 @@ If you receive gcc errors using v3.1 during build, download and use v2.2. This m
 1) Install required drivers for your windows installation.
 You can find out how to do this here: 
 
-2) Install github
+2) Install github for windows
 
-3) clone the required proxspace repo. https://github.com/Gator96100/ProxSpace/
+3) Clone the required proxspace repo. https://github.com/Gator96100/ProxSpace/
 
 4) Extract 'ProxSpace' to a location on drive without spaces. 
 For example C:\Proxspace or D:\projects\public\proxmark\proxspace are ok whereas C:\My Documents\My Projects\proxspace is not.
 
 5) Run runme.bat or runme64.bat depending on your Windows architecture.
-
 
 6) Clone fork
 `git clone https://github.com/RfidResearchGroup/proxmark3.git`
@@ -32,30 +31,36 @@ For example C:\Proxspace or D:\projects\public\proxmark\proxspace are ok whereas
 Please note you will need to use the / syntax as you are using BASH.
 
 9) Get the latest commits	
-`git pull`
+```sh
+git pull
+```
 
 10) CLEAN COMPILE
-`make clean && make all`
+```sh
+make clean && make all
+```
 
 11) Flash the BOOTROM & FULLIMAGE
-`client/flasher.exe comX -b bootrom/obj/bootrom.elf armsrc/obj/fullimage.elf`
+```sh
+client/flasher.exe comX -b bootrom/obj/bootrom.elf armsrc/obj/fullimage.elf
+```
 	
 12) Change into the client folder
-`cd client`
+```sh
+cd client
+```
 
 Assuming you have Proxmark3 Windows drivers installed you can run the Proxmark software where "X" is the com port number assigned to proxmark3 under Windows. 
 
 13) Run the client	
-`proxmark3.exe comX`
+```sh
+proxmark3.exe comX
+```
 
 14) Check your firmware revision on the Proxmark III with hw ver
 
 For basic help type help. Or for help on a set of sub commands type the command followed by help. For example hf mf help.
 
-
-
-- Clone fork
-`git clone https://github.com/RfidResearchGroup/proxmark3.git`
 
 
 
