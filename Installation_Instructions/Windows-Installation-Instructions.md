@@ -26,17 +26,19 @@ For example C:\Proxspace or D:\projects\public\proxmark\proxspace are ok whereas
 
 7) Copy all the contents of proxmark3 folder into the proxspace pm3 folder
 
-8) Return to the runme.bat and check you are in the correct directory
+8) Return to the runme.bat and check you are in the correct directory it should return /pm3
 ```sh
-
-pwd
-
+pm3 ~$ pwd
+/pm3
 ```
 It should appear as /pm3. Please note for changing directory, you will need to use the / syntax as you are using BASH.
 For example:
 ```sh
 
 cd /pm3
+
+pm3 ~$ pwd
+/pm3
 
 ```
 9) Get the latest commits	
