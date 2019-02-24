@@ -11,8 +11,9 @@ If you receive gcc errors using v3.1 during build, download and use v2.2. This m
 ---
 ## Manual Installation
 1) Install required drivers for your windows installation.
+(This is covered in the video)
 
-2) Install Github for Windows
+2) Install Github for Windows https://desktop.github.com/
 
 3) Download the required proxspace repo. https://github.com/Gator96100/ProxSpace/
 
