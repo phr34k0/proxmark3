@@ -46,7 +46,7 @@ Give us a hint, and we'll see if we can't merge in the stuff you have.
 	
 ## PM3 GUI
 The official PM3-GUI from Gaucho will not work.
-The new universial GUI will work. [Proxmark3 Univerisal GUI](https://github.com/burma69/PM3UniversalGUI) 
+The new universial GUI will work. [Proxmark3 Universal GUI](https://github.com/burma69/PM3UniversalGUI) 
 
 ## Notices
 Kali and ArchLinux users usually must kill their modem manager in order for the proxmark3 to enumerate properly.   
@@ -59,7 +59,7 @@ Please see the [Proxmark Forum](http://www.proxmark.org/forum/index.php) and see
 
 `iceman at host iuse.se`
 `July 2018, Sweden`
-`updated for Jan 2019 @5w0rdfish`
+`updated Feb 2019 [@5w0rdfish](https://mobile.twitter.com/5w0rdFish)`
 
 # Donations
 Nothing says thank you as much as a donation,  https://www.patreon.com/iceman1001
