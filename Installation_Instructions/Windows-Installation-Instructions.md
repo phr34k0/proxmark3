@@ -58,6 +58,7 @@ Assuming you have Proxmark3 Windows drivers installed you can run the Proxmark s
 hw ver
 ```
 For basic help type help. Or for help on a set of sub commands type the command followed by help. For example hf mf help.
+Make sure you head over to the use of [proxmark area](https://github.com/5w0rdfish/proxmark3/tree/master/Use_of_Proxmark) to help you get on your way!
 
 
 
