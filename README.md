@@ -57,9 +57,9 @@ Please see the [Proxmark Forum](http://www.proxmark.org/forum/index.php) and see
 
 ## the end
 
-`iceman at host iuse.se`
-`July 2018, Sweden`
-`updated Feb 2019 [@5w0rdfish](https://mobile.twitter.com/5w0rdFish)`
+[@herrmann1001](https://mobile.twitter.com/herrmann1001) at host iuse.se
+July 2018, Sweden
+updated Feb 2019 [@5w0rdfish](https://mobile.twitter.com/5w0rdFish)
 
 # Donations
 Nothing says thank you as much as a donation,  https://www.patreon.com/iceman1001
