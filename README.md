@@ -17,7 +17,7 @@ alt="Yuotube" width="100%" height="auto" border="10" /></a>
 | ------------- |:-------------:| -----:|
 |[Whats changed?](#whats-changed)  | [Setup and build for ArchLinux](/Installation_Instructions/Arch-Linux-Installation-Instructions.md) | [Validating proxmark client functionality](/Use_of_Proxmark/1_Validation.md)|
 |[Development](#development) | [Setup and build for UBUNTU](/Installation_Instructions/Ubuntu-Installation-Instructions.md)  | [Verification and Configuration](/Use_of_Proxmark/2_Configuration-and-Verification.md) |
-| [Why don't you add this or that functionality?](#why-dont-you-add-this-or-that-functionality)  | [Homebrew (Mac OS X) & Upgrading HomeBrew Tap Forumula](/Installation_Instructions/Mac-OS-X-Homebrew-Installation-Instructions.md) | [Commands & Features](/Use_of_Proxmark/3_Commands-and-Features)|
+| [Why don't you add this or that functionality?](#why-dont-you-add-this-or-that-functionality)  | [Homebrew (Mac OS X) & Upgrading HomeBrew Tap Forumula](/Installation_Instructions/Mac-OS-X-Homebrew-Installation-Instructions.md) | [Commands & Features](/Use_of_Proxmark/3_Commands-and-Features.md)|
 |[Why didn't you based it on offical PM3 Master?](#why-didnt-you-based-it-on-offical-pm3-master) |[ParrotOS (Debian) Installation ](/Installation_Instructions/Parrot-OS-Proxmark3-RDV4-installation.md)|
 |[Notices](#notices)|[Setup and build for Windows](/Installation_Instructions/Windows-Installation-Instructions.md)|[PM3 GUI](#pm3-gui)|
 |[Issues](#issues)|[Coverity Scan Config & Run](/Installation_Instructions/Coverity-Scan-Config-%26-Run.md)||
