@@ -55,7 +55,7 @@ Kali and ArchLinux users usually must kill their modem manager in order for the 
 ## Issues
 Please see the [Proxmark Forum](http://www.proxmark.org/forum/index.php) and see if your issue is listed in the first instance google is your friend :) Questions will be answered via the forum by Iceman and the team. 
 
-## the end
+## The end
 
 [@herrmann1001](https://mobile.twitter.com/herrmann1001) at host iuse.se
 July 2018, Sweden
