@@ -13,7 +13,7 @@ Installation script: coming soon
 First what we want to do is get an update for the system
 
 ```sh
-sudo apt-get install update
+sudo apt-get update
 ```
 
 Grab the build requirements.
@@ -41,8 +41,9 @@ In addition to this, the make udev command create's an alias for the pm3 under /
 make udev
 ```
 Log out and log back in again. And now we are all set to take the next step. 
+Clean and complete compilation
 ```sh
-Clean and complete compilation make clean && make all
+ make clean && make all
 ```
 Once this is complete run the following comands to make sure the proxmark is being picked up by your computer. 
  ```sh
@@ -70,5 +71,6 @@ Run the client
 
 or 
  ``` sh 
-./proxmark3 /dev/pm  #press tab on the keyboard for it to detect the proxmark
+./proxmark3 /dev/pm 
 ```
+ #press tab on the keyboard for it to detect the proxmark
