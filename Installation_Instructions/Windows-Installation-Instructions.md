@@ -12,15 +12,15 @@ If you receive gcc errors using v3.1 during build, download and use v2.2. This m
 # Video Installation guide
 [![Windows Installation tutorial](https://github.com/5w0rdfish/Proxmark3-RDV4-ParrotOS/blob/master/screenshot-www.youtube.com-2019.03.17-20-44-33.png)](https://youtu.be/cHaLCSWGazY "Windows Installation Tutorial")
 ## Manual Installation
-1) Install required drivers for your windows installation.
-(This is covered in the video)
+1) Install required drivers for your windows installation. You will may need admin privileges to do this. 
+(This is covered in the video) Step by step guides are online such as [RiscCorps](https://store.ryscc.com/blogs/news/how-to-install-a-proxmark3-driver-on-windows-10)
 
 2) Install Github for Windows https://desktop.github.com/
 
 3) Download the required proxspace repo. https://github.com/Gator96100/ProxSpace/
 
 4) Extract 'ProxSpace' to a location on drive without spaces. 
-For example C:\Proxspace or D:\projects\public\proxmark\proxspace is ok whereas C:\My Documents\My Projects\proxspace is not.
+For example D:\OneDrive\Documents\GitHub is ok whereas C:\My Documents\My Projects\proxspace is not.
 
 6) Clone fork
 ```sh
@@ -33,7 +33,7 @@ git clone https://github.com/RfidResearchGroup/proxmark3.git
 
 Please note you will need to use / as you are using BASH.
 
-9) CLEAN COMPILE
+9) CLEAN COMPILE inside the pm3 window.
 ```sh
 make clean && make all
 ```
