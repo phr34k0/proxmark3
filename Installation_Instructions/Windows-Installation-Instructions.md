@@ -10,7 +10,7 @@ If you receive gcc errors using v3.1 during build, download and use v2.2. This m
 
 ---
 # Video Installation guide
-[![Windows Installation tutorial](https://github.com/5w0rdfish/Proxmark3-RDV4-ParrotOS/blob/master/screenshot-www.youtube.com-2019.03.17-20-44-33.png)](https://youtu.be/cHaLCSWGazY "Windows Installation Tutorial")
+[![Windows Installation tutorial](https://github.com/5w0rdfish/Proxmark3-RDV4-ParrotOS/blob/master/screenshot-www.youtube.com-2019.03.17-20-44-33.png)](https://youtu.be/zzF0NCMJnYU "Windows Installation Tutorial")
 
 ## Manual Installation
 
