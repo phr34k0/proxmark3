@@ -29,6 +29,11 @@ Clone the repo.
 git clone https://github.com/RfidResearchGroup/proxmark3.git
 ```
 
+Change directory into the directory created
+```sh
+cd proxmark3
+```
+
 Get the latest commits
 ```sh
 git pull
@@ -41,13 +46,14 @@ In addition to this, the make udev command create's an alias for the pm3 under /
 make udev
 ```
 Log out and log back in again. And now we are all set to take the next step. 
-Clean and complete compilation
+Clean and complete compilation *within the proxmark3 folder*
+
 ```sh
  make clean && make all
 ```
 Once this is complete run the following comands to make sure the proxmark is being picked up by your computer. 
  ```sh
-dmesg | grep -i usb
+sudo dmesg | grep -i usb
 ```
 It should show up as a CDC device:
 ```sh
@@ -64,13 +70,18 @@ Change into the client folder
  ```sh
 cd client
 ```
+
+ ``` sh 
+./proxmark3 /dev/pm #press tab on the keyboard for it to detect the proxmark
+```
+or  
+
 Run the client 
  ```sh
 ./proxmark3 /dev/ttyACM0
 ```
-
-or 
- ``` sh 
-./proxmark3 /dev/pm 
+ 
+Run a test command
+ ```sh
+hw tune
 ```
- #press tab on the keyboard for it to detect the proxmark
