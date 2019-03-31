@@ -16,45 +16,45 @@ If you receive gcc errors using v3.1 during build, download and use v2.2. This m
 
 ### Driver Installation
 
-1) Install required drivers for your windows installation. You will may need admin privileges to do this. 
+Install required drivers for your windows installation. You will may need admin privileges to do this. 
 (This is covered in the video) Step by step guides are online such as [RiscCorps](https://store.ryscc.com/blogs/news/how-to-install-a-proxmark3-driver-on-windows-10)
 
 ### Install Github
 
-2) Install Github for Windows https://desktop.github.com/
+Install Github for Windows https://desktop.github.com/
 
 ### Download / clone Proxspace repo
 
-3) Download the required proxspace repo. https://github.com/Gator96100/ProxSpace/
+Download the required proxspace repo. https://github.com/Gator96100/ProxSpace/
 
-4) Extract 'ProxSpace' to a location on drive without spaces. 
+Extract 'ProxSpace' to a location on drive without spaces. 
 For example D:\OneDrive\Documents\GitHub is ok whereas C:\My Documents\My Projects\proxspace is not.
 
 ### Clone RFID RESEARCH GROUP files
 
-6) Clone fork
+Clone fork
 ```sh
 git clone https://github.com/RfidResearchGroup/proxmark3.git
 ```
 ### Copy files to Proxspace
 
-7) Copy all the contents from the proxmark3 folder into the proxspace pm3 folder
+Copy all the contents from the proxmark3 folder into the proxspace pm3 folder
 
 ### Run the .bat
 
-8) Run runme.bat or runme64.bat depending on your Windows architecture.
+Run runme.bat or runme64.bat depending on your Windows architecture.
 
 Please note you will need to use / as you are using BASH.
 
 ### Make 
 
-9) CLEAN COMPILE inside the pm3 window.
+CLEAN COMPILE inside the pm3 window.
 ```sh
 make clean && make all
 ```
 ### Flash the image
 
-10) Flash the BOOTROM & FULLIMAGE
+Flash the BOOTROM & FULLIMAGE
 ```sh
 client/flasher.exe comX -b bootrom/obj/bootrom.elf armsrc/obj/fullimage.elf
 ```
@@ -63,25 +63,21 @@ client/flasher.exe comX -b bootrom/obj/bootrom.elf armsrc/obj/fullimage.elf
 
 Assuming you have Proxmark3 Windows drivers installed you can run the Proxmark software where "X" is the com port number assigned to proxmark3 under Windows. 
 
-11) Change into the client folder
+Change into the client folder
 ```sh
 cd client
 ```
 
-12) Run the client	
+Run the client	
 ```sh
 ./proxmark3.exe comX
 ```
 
 ### Test
 
-13) Check your firmware revision on the Proxmark III with 
+Check your firmware revision on the Proxmark III with 
 ```sh
 hw ver
 ```
 For basic help type help. Or for help on a set of sub commands type the command followed by help. For example hf mf help.
 Make sure you head over to the use of [proxmark area](https://github.com/5w0rdfish/proxmark3/tree/master/Use_of_Proxmark) to help you get on your way!
-
-
-
-
