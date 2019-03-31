@@ -40,9 +40,8 @@ git pull
 ```
 
 ### Make Udev
-The make udev command create's an alias for the pm3 under /dev which you will use to connect to the proxmark 
-Iceman has made the udev script below which takes care of the blacklist rules. 
-This should take care of the remove modem manager.
+Iceman has made the udev script which takes care of the blacklist rules. This should take care of the remove modem manager.
+The make udev command also create's an alias for the pm3 under /dev which you will use to connect to the proxmark. 
 
 ```sh
 sudo make udev
